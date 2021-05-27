@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Z3r0_Ch4t - When In School</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+	<script>
+		  // Your web app's Firebase configuration
+		  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		  var firebaseConfig = {
+		    apiKey: "AIzaSyAso_2yoAu5CbuNlqlSUSQs5J4KPz15ma8",
+		    authDomain: "zero-chat-58865.firebaseapp.com",
+		    projectId: "zero-chat-58865",
+		    storageBucket: "zero-chat-58865.appspot.com",
+		    messagingSenderId: "308118802252",
+		    appId: "1:308118802252:web:cb78158f896cfc5f98c9e9",
+		    measurementId: "G-6Z1Y3Q6C2Y"
+		  };
+		  // Initialize Firebase
+		  firebase.initializeApp(firebaseConfig);
+	</script>
+</head>
+<body>
+	<script src="main.js"></script>
+	<h1>Welcome To Z3r0_Ch4t</h1>
+	<h3>When in School Z3r0_Ch4t</h3>
+	<div id="rules">
+		<p>
+			<ul>
+				<h3>Rules:</h3> 
+				<li>No Cursing</li> 
+				<li>Put as many passwords and usernames as you want</li>
+				<li>And delete all your messages befor leaving or I will</li>
+				<h3>Credits: /*/-_-/*/ Duh! It's me iRoot</h3> 
+			</ul>
+		</p>
+	</div>
+	<p>[-------------------------------------Messaging Starts Here-------------------------------------]</p>
+	<ul id="messages"></ul>
+	<form onsubmit="return sendMessage()">
+		<input type="text" id="message" placeholder="Enter Message" autocomplete="off"><br><br>
+		<input type="submit" value=" Send ">
+	</form>
+</body>
+</html>
